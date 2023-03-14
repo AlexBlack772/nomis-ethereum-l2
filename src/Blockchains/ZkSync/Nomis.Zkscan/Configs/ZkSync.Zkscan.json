@@ -1,0 +1,35 @@
+{
+  "ZkscanSettings": {
+    "ApiBaseUrl": "https://zksync2-mainnet.zkscan.io/",
+    "BlockchainDescriptor": {
+      "ChainId": 324,
+      "ChainName": "zkSync Era Mainnet",
+      "BlockchainName": "zk-sync-era",
+      "BlockchainSlug": "zk-sync-era",
+      "BlockExplorerUrls": [
+        "https://explorer.zksync.io/"
+      ],
+      "NativeCurrency": {
+        "Id": "0x0000000000000000000000000000000000000000",
+        "Name": "Ethereum",
+        "Symbol": "ETH",
+        "Decimals": 18,
+        "LogoUri": "https://defiyield-static.s3.eu-central-1.amazonaws.com/eth/0x0000000000000000000000000000000000000000/coinmarketcap.webp"
+      },
+      "Order": 42,
+      "Icon": "https://defiyield-static.s3.eu-central-1.amazonaws.com/chains/zksync.jpg",
+      "LabelIcon": "https://defiyield-static.s3.eu-central-1.amazonaws.com/chains/zksync_label.png",
+      "Enabled": true,
+      "Type": "EVM",
+      "PlatformIds": {
+        "Coingecko": "ethereum"
+      },
+      "BalancesCheckerAddress": "",
+      "RPCUrls": [
+        "https://zksync2-mainnet.zksync.io"
+      ],
+      "IsEVMCompatible": true,
+      "SBTContractAddresses": null
+    }
+  }
+}

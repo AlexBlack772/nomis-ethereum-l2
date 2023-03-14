@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>7eed6390-25d3-47b1-b3e2-6d5a0f38f0c8</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..</DockerfileContext>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Serilog.AspNetCore" />
+    <PackageReference Include="Serilog.Enrichers.Demystifier" />
+    <PackageReference Include="Serilog.Enrichers.ClientInfo" />
+    <PackageReference Include="Serilog.Enrichers.Environment" />
+    <PackageReference Include="Serilog.Enrichers.Thread" />
+    <PackageReference Include="Serilog.Enrichers.Process" />
+    <PackageReference Include="Serilog.Sinks.Async" />
+    <PackageReference Include="Serilog.Sinks.Seq" />
+    <PackageReference Include="Unchase.Swashbuckle.AspNetCore.Extensions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Blockchains\ArbitrumOne\Nomis.Api.ArbitrumOne\Nomis.Api.ArbitrumOne.csproj" />
+    <ProjectReference Include="..\..\Blockchains\ArbitrumOne\Nomis.Arbiscan\Nomis.Arbiscan.csproj" />
+    <ProjectReference Include="..\..\Blockchains\Ethereum\Nomis.Api.Ethereum\Nomis.Api.Ethereum.csproj" />
+    <ProjectReference Include="..\..\Blockchains\Ethereum\Nomis.Etherscan\Nomis.Etherscan.csproj" />
+    <ProjectReference Include="..\..\Blockchains\Gnosis\Nomis.Api.Gnosis\Nomis.Api.Gnosis.csproj" />
+    <ProjectReference Include="..\..\Blockchains\Gnosis\Nomis.Gnosisscan\Nomis.Gnosisscan.csproj" />
+    <ProjectReference Include="..\..\Blockchains\Optimism\Nomis.Api.Optimism\Nomis.Api.Optimism.csproj" />
+    <ProjectReference Include="..\..\Blockchains\Optimism\Nomis.Optimism\Nomis.Optimism.csproj" />
+    <ProjectReference Include="..\..\Blockchains\Polygon\Nomis.Api.Polygon\Nomis.Api.Polygon.csproj" />
+    <ProjectReference Include="..\..\Blockchains\Polygon\Nomis.Polygonscan\Nomis.Polygonscan.csproj" />
+    <ProjectReference Include="..\..\Blockchains\ZkSync\Nomis.Api.ZkSync\Nomis.Api.ZkSync.csproj" />
+    <ProjectReference Include="..\..\Blockchains\ZkSync\Nomis.Zkscan\Nomis.Zkscan.csproj" />
+    <ProjectReference Include="..\..\Dexes\Common\Nomis.Api.DexAggregator\Nomis.Api.DexAggregator.csproj" />
+    <ProjectReference Include="..\..\Dexes\Common\Nomis.DexProviderService\Nomis.DexProviderService.csproj" />
+    <ProjectReference Include="..\..\Services\Application\Common\Nomis.CurrentUserService\Nomis.CurrentUserService.csproj" />
+    <ProjectReference Include="..\..\Services\Application\Scoring\Nomis.ScoringService\Nomis.ScoringService.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Caching\Nomis.CacheProviderService\Nomis.CacheProviderService.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Ceramic\Nomis.Api.Ceramic\Nomis.Api.Ceramic.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Ceramic\Nomis.Ceramic\Nomis.Ceramic.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Chainanalysis\Nomis.Api.Chainanalysis\Nomis.Api.Chainanalysis.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Chainanalysis\Nomis.Chainanalysis\Nomis.Chainanalysis.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Coingecko\Nomis.Coingecko\Nomis.Coingecko.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\DefiLlama\Nomis.Api.DefiLlama\Nomis.Api.DefiLlama.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\DefiLlama\Nomis.DefiLlama\Nomis.DefiLlama.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Greysafe\Nomis.Api.Greysafe\Nomis.Api.Greysafe.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Greysafe\Nomis.Greysafe\Nomis.Greysafe.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Hapi\Nomis.Api.Hapi\Nomis.Api.Hapi.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Hapi\Nomis.HapiExplorer\Nomis.HapiExplorer.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Lending\Nomis.Aave\Nomis.Aave.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Lending\Nomis.Api.Aave\Nomis.Api.Aave.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Rapyd\Nomis.Api.Rapyd\Nomis.Api.Rapyd.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Rapyd\Nomis.Rapyd\Nomis.Rapyd.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\SBT\Nomis.Api.SoulboundToken\Nomis.Api.SoulboundToken.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\SBT\Nomis.SoulboundTokenService\Nomis.SoulboundTokenService.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Snapshot\Nomis.Api.Snapshot\Nomis.Api.Snapshot.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Snapshot\Nomis.Snapshot\Nomis.Snapshot.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Social\Nomis.Api.CyberConnect\Nomis.Api.CyberConnect.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Social\Nomis.CyberConnect\Nomis.CyberConnect.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Tatum\Nomis.Api.Tatum\Nomis.Api.Tatum.csproj" />
+    <ProjectReference Include="..\..\Services\Infrastructure\Tatum\Nomis.Tatum\Nomis.Tatum.csproj" />
+    <ProjectReference Include="..\..\Storage\Nomis.DataAccess.PostgreSql.Scoring\Nomis.DataAccess.PostgreSql.Scoring.csproj" />
+    <ProjectReference Include="..\..\Storage\Nomis.DataAccess.PostgreSql\Nomis.DataAccess.PostgreSql.csproj" />
+    <ProjectReference Include="..\Nomis.Api.Common\Nomis.Api.Common.csproj" />
+  </ItemGroup>
+</Project>

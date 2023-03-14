@@ -1,0 +1,46 @@
+{
+  "GnosisscanSettings": {
+    "ApiKey": "759T6VJZTPEUV9M39JESN73HK5Z8CT8XTS",
+    "ApiBaseUrl": "https://api.gnosisscan.io/",
+    "BlockchainDescriptor": {
+      "ChainId": 100,
+      "ChainName": "Gnosis",
+      "BlockchainName": "Gnosis",
+      "BlockchainSlug": "gnosis",
+      "BlockExplorerUrls": [
+        "https://gnosisscan.io/"
+      ],
+      "NativeCurrency": {
+        "Id": "0x0000000000000000000000000000000000000000",
+        "Name": "xDAI",
+        "Symbol": "xDAI",
+        "Decimals": 18,
+        "LogoUri": "https://defiyield-static.s3.eu-central-1.amazonaws.com/gnosis/0x0000000000000000000000000000000000000000/coinmarketcap.webp"
+      },
+      "Order": 7,
+      "Icon": "https://defiyield-static.s3.eu-central-1.amazonaws.com/chains/gnosis.png",
+      "LabelIcon": "https://defiyield-static.s3.eu-central-1.amazonaws.com/chains/gnosis-label.png",
+      "Enabled": true,
+      "Type": "EVM",
+      "PlatformIds": {
+        "Coingecko": "xdai",
+        "Debank": "xdai",
+        "DefiLLama": "xdai"
+      },
+      "BalancesCheckerAddress": "",
+      "RPCUrls": [
+        "https://rpc.gnosischain.com",
+        "https://rpc.gnosis.gateway.fm",
+        "https://gnosis-mainnet.public.blastapi.io",
+        "https://xdai-rpc.gateway.pokt.network",
+        "https://gnosis.blockpi.network/v1/rpc/public",
+        "https://rpc.ankr.com/gnosis",
+        "https://gnosischain-rpc.gateway.pokt.network"
+      ],
+      "IsEVMCompatible": true,
+      "SBTContractAddresses": {
+        "Finance": "0x4d5f06cC2A7d3a625C95D04Cfaec5AEb5eCfA33D"
+      }
+    }
+  }
+}

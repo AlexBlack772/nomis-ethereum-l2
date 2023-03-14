@@ -1,0 +1,43 @@
+{
+  "ArbiscanSettings": {
+    "ApiKey": "6U39GFQMP71X4E68VS1D9EE1M4P1MM5UFK",
+    "ApiBaseUrl": "https://api.arbiscan.io/",
+    "BlockchainDescriptor": {
+      "ChainId": 42161,
+      "ChainName": "Arbitrum One",
+      "BlockchainName": "Arbitrum One",
+      "BlockchainSlug": "arbitrum-one",
+      "BlockExplorerUrls": [
+        "https://arbiscan.io/"
+      ],
+      "NativeCurrency": {
+        "Id": "0x0000000000000000000000000000000000000000",
+        "Name": "ETH",
+        "Symbol": "ETH",
+        "Decimals": 18,
+        "LogoUri": "https://defiyield-static.s3.eu-central-1.amazonaws.com/arbi/0x0000000000000000000000000000000000000000/coinmarketcap.webp"
+      },
+      "Order": 5,
+      "Icon": "https://defiyield-static.s3.eu-central-1.amazonaws.com/chains/arbi.png",
+      "LabelIcon": "https://defiyield-static.s3.eu-central-1.amazonaws.com/chains/arbitrum-label.png",
+      "Enabled": true,
+      "Type": "EVM",
+      "PlatformIds": {
+        "Coingecko": "arbitrum-one",
+        "Debank": "arb",
+        "DefiLLama": "arbitrum"
+      },
+      "BalancesCheckerAddress": "",
+      "RPCUrls": [
+        "https://endpoints.omniatech.io/v1/arbitrum/one/public",
+        "https://rpc.ankr.com/arbitrum",
+        "https://arbitrum.blockpi.network/v1/rpc/public",
+        "https://endpoints.omniatech.io/v1/arbitrum/one/public"
+      ],
+      "IsEVMCompatible": true,
+      "SBTContractAddresses": {
+        "Finance": "0x6B435e82bFb27F9308Ad6E67dbecA06828372627"
+      }
+    }
+  }
+}

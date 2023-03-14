@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Configs\Polygon.Polygonscan.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nethereum.Util" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Dexes\Common\Nomis.DexProviderService.Interfaces\Nomis.DexProviderService.Interfaces.csproj" />
+    <ProjectReference Include="..\..\..\Services\Infrastructure\Coingecko\Nomis.Coingecko.Interfaces\Nomis.Coingecko.Interfaces.csproj" />
+    <ProjectReference Include="..\..\..\Services\Application\Scoring\Nomis.ScoringService.Interfaces\Nomis.ScoringService.Interfaces.csproj" />
+    <ProjectReference Include="..\Nomis.Polygonscan.Interfaces\Nomis.Polygonscan.Interfaces.csproj" />
+  </ItemGroup>
+</Project>

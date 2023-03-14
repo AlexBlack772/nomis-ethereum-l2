@@ -1,0 +1,52 @@
+{
+  "PolygonscanSettings": {
+    "ApiKey": "APC91E47GFP2T2WSCXPPIWJVXIVNG2NPPY",
+    "ApiBaseUrl": "https://api.polygonscan.com/",
+    "BlockchainDescriptor": {
+      "ChainId": 137,
+      "ChainName": "Polygon Mainnet",
+      "BlockchainName": "Polygon",
+      "BlockchainSlug": "polygon",
+      "BlockExplorerUrls": [
+        "https://polygonscan.com/"
+      ],
+      "NativeCurrency": {
+        "Id": "0x0000000000000000000000000000000000000000",
+        "Name": "Polygon",
+        "Symbol": "MATIC",
+        "Decimals": 18,
+        "LogoUri": "https://defiyield-static.s3.eu-central-1.amazonaws.com/plg/0x0000000000000000000000000000000000000000/coinmarketcap.webp"
+      },
+      "Order": 3,
+      "Icon": "https://defiyield-static.s3.eu-central-1.amazonaws.com/chains/plg.png",
+      "LabelIcon": "https://defiyield-static.s3.eu-central-1.amazonaws.com/chains/polygon-label.png",
+      "Enabled": true,
+      "Type": "EVM",
+      "PlatformIds": {
+        "Coingecko": "matic-network",
+        "Debank": "matic",
+        "DefiLLama": "polygon"
+      },
+      "BalancesCheckerAddress": "",
+      "RPCUrls": [
+        "https://polygon.llamarpc.com",
+        "https://polygon-bor.publicnode.com",
+        "https://polygon.blockpi.network/v1/rpc/public",
+        "https://polygon-rpc.com",
+        "https://matic-mainnet-archive-rpc.bwarelabs.com",
+        "https://polygon-mainnet.public.blastapi.io",
+        "https://rpc.ankr.com/polygon",
+        "https://polygon-bor.publicnode.com",
+        "https://rpc-mainnet.matic.quiknode.pro",
+        "https://1rpc.io/matic",
+        "https://endpoints.omniatech.io/v1/matic/mainnet/public",
+        "https://speedy-nodes-nyc.moralis.io/cb6227e1fc4debe4b81540ef/polygon/mainnet"
+      ],
+      "IsEVMCompatible": true,
+      "SBTContractAddresses": {
+        "Finance": "0x286a0a92B65233C39592B97896e93A28682E95A0",
+        "Eco": "0x20e86a464185dcDF06Cbb58299d430BA3e8358bF"
+      }
+    }
+  }
+}

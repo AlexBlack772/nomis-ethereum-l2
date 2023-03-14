@@ -1,0 +1,40 @@
+{
+  "OptimismSettings": {
+    "ApiKey": "NTIB9CU7KX252FP9X8UJMIZ2JVNFVJU8FC",
+    "ApiBaseUrl": "https://api-optimistic.etherscan.io/",
+    "BlockchainDescriptor": {
+      "ChainId": 10,
+      "ChainName": "Optimism",
+      "BlockchainName": "Optimism",
+      "BlockchainSlug": "optimism",
+      "BlockExplorerUrls": [
+        "https://optimistic.etherscan.io/"
+      ],
+      "NativeCurrency": {
+        "Id": "0x0000000000000000000000000000000000000000",
+        "Name": "Ethereum",
+        "Symbol": "ETH",
+        "Decimals": 18,
+        "LogoUri": "https://defiyield-static.s3.eu-central-1.amazonaws.com/opt/0x0000000000000000000000000000000000000000/coinmarketcap.webp"
+      },
+      "Order": 17,
+      "Icon": "https://defiyield-static.s3.eu-central-1.amazonaws.com/chains/opt.png",
+      "LabelIcon": "https://defiyield-static.s3.eu-central-1.amazonaws.com/chains/optimism-label.png",
+      "Enabled": true,
+      "Type": "EVM",
+      "PlatformIds": {
+        "Coingecko": "ethereum",
+        "Debank": "op",
+        "DefiLLama": "optimism"
+      },
+      "BalancesCheckerAddress": "",
+      "RPCUrls": [
+        "https://mainnet.optimism.io"
+      ],
+      "IsEVMCompatible": true,
+      "SBTContractAddresses": {
+        "Finance": "0xa3e62c1c567d255F25849c8c0b76351e6871Da28"
+      }
+    }
+  }
+}
